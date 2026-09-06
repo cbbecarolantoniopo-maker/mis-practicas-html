@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>07 Formularios Avanzado</title>
+</head>
+<body>
+<h1>Formulario avanzado</h1>
+<form>
+<label for="fecha">Fecha:</label>
+<input type="date" id="fecha" name="fecha"><br><br>
+<label>Modalidad:</label>
+<input type="radio" name="modalidad" value="presencial"> Presencial
+<input type="radio" name="modalidad" value="virtual"> Virtual<br><br>
+<label>Intereses:</label>
+<input type="checkbox" name="interes" value="diseno"> Diseño
+<input type="checkbox" name="interes" value="programacion"> Programación<br><br>
+<label for="nivel">Nivel:</label>
+<select id="nivel" name="nivel">
+<option>Principiante</option><option>Intermedio</option><option>Avanzado</option>
+</select><br><br>
+<label for="comentario">Comentario:</label><br>
+<textarea id="comentario" name="comentario" rows="5" cols="35"></textarea><br><br>
+<input type="range" min="0" max="100" value="50">
+<button type="submit">Enviar formulario</button>
+</form>
+<hr>
+<p><a href="../index.html">← Volver a Ejercicios HTML</a></p>
+</body>
+</html>
